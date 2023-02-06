@@ -27,7 +27,7 @@ public class MaterialsUse {
 		Map<String, List<Materials>> materialCalculado = materialCalculado(materialMap); 
 		
 		for(String clave: materialCalculado.keySet()) {
-			System.out.println("---------------------");
+			System.out.println("-------Title--------------");
 			System.out.println(clave);
 			for(Materials material:materialCalculado.get(clave)) {
 				System.out.println("Name: " + material.getName());
